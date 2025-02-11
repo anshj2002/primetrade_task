@@ -1,7 +1,7 @@
 # Specific project directories
 task/crypto_data/__pycache__/
 task/venv/
-task/.env
+task/crypto_data/.env
 
 # Python
 *.py[cod]
