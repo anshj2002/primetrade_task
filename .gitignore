@@ -1,45 +1,53 @@
-# Python-related ignores
+# Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
 *.so
-
-# Environment files
-.venv/
-venv/
-.env
-
-# Byte-compiled / optimized / DLL files
-*.py[cod]
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
 *.egg
 
-# Packages
-*.whl
-*.egg-info/
-
-# Log files
-*.log
-
-# Virtual environment files
-.Python
+# Virtual Environment
+venv/
+ENV/
 env/
-bin/
-lib/
-include/
-build/
-scripts/
+.env
 
-# VSCode-specific ignores
+# IDE specific files
+.idea/
 .vscode/
-.history/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Logs and databases
+*.log
+*.sqlite
+crypto_reporter.log
+*.db
 
-# Dropbox ignores (if applicable)
-*.dropbox
+# Excel files (if you want to ignore local copies)
+*.xlsx
+*.xls
 
-# MacOS
+# PDF files (if you want to ignore local copies)
+*.pdf
+
+# Other
 .DS_Store
+Thumbs.db
