@@ -1,1 +1,37 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
 venv/
+*.pyenv/
+
+# Ignore environment variable files
+crypto_data/.env
+
+# Ignore Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+*.so
+
+# Packages
+*.egg-info/
+*.whl
+
+# Log files
+*.log
+
+# VSCode-related ignores
+.vscode/
+.history/
+
+# MacOS
+.DS_Store
+
+# Ignore Python-related metadata
+*.egg
+*.egg-info/
+*.dist-info/
+
+# Ignore pip metadata
+pip-selfcheck.json
