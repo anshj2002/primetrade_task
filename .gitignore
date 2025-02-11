@@ -1,5 +1,9 @@
+# Specific project directories
+task/crypto_data/__pycache__/
+task/venv/
+task/.env
+
 # Python
-__pycache__/
 *.py[cod]
 *$py.class
 *.so
@@ -10,8 +14,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
@@ -20,34 +22,22 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
-venv/
-ENV/
-env/
-.env
-
 # IDE specific files
 .idea/
 .vscode/
 *.swp
 *.swo
-.project
-.pydevproject
-.settings/
 
 # Logs and databases
-*.log
-*.sqlite
-crypto_reporter.log
-*.db
+task/crypto_data/*.log
+task/crypto_data/*.sqlite
+task/crypto_data/*.db
 
-# Excel files (if you want to ignore local copies)
-*.xlsx
-*.xls
+# Excel and PDF files
+task/crypto_data/*.xlsx
+task/crypto_data/*.xls
+task/crypto_data/*.pdf
 
-# PDF files (if you want to ignore local copies)
-*.pdf
-
-# Other
+# System files
 .DS_Store
 Thumbs.db
