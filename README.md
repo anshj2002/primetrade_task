@@ -1,9 +1,3 @@
-# 🚀 Crypto Market Analytics Dashboard
-
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/crypto-market-analytics)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-
 A robust cryptocurrency market analysis tool that fetches real-time data from CoinMarketCap API, processes it, and generates comprehensive reports in multiple formats.
 
 ## ✨ Features
